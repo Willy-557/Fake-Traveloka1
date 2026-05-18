@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerNavbar {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1800px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.containerHotel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.containerKereta {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    width: 100%;
+    /* background-color: rgb(0, 255, 42); */
+}
+
+.containerHotel2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #7CB1FF;
+    border-radius: 10px;
+}
+
+.item {
+    border: 1px solid black;
+    border: none;
+}
+
+.headfoot {
+    background: linear-gradient(101deg, #FFFFFF, #CCE0FF);
+}
+
+.birumuda {
+    background: linear-gradient(120deg,  #CCE0FF, #FFFFFF);
+}
+
+/* .bgFoto {
+    background: url(Asset_Tugas/Hotel-Header.png);
+    ini kalau mau pakai background url 
+} */
+
+.bgFoto img {
+    width: 100%;
+
+    opacity: 40%;
+    position: fixed;
+    top: 0px;
+}

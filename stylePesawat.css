@@ -1,0 +1,36 @@
+.pesawatGerak img{
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    top: -198px;
+    right: -5px;
+    animation: pesawat 13s linear infinite;
+}
+
+@keyframes pesawat {
+    0% {
+        transform: translateX(0) scaleX(1) translateY(-130px);
+        opacity: 0%;
+    }
+    49.9% {
+        transform: translateX(-1100px) scaleX(1);
+    }
+    50% {
+        transform: translateX(-1100px) scaleX(-1) translateY(0px);
+        opacity: 100%;
+    }
+    99.9% {
+        transform: translateX(0) scaleX(-1) translateY(-130px) rotateZ(20deg);
+        opacity: 20%;
+        
+    }
+    100% {
+        transform: translateX(0) scaleX(1);
+        opacity: 0%;
+    }
+}
+
+#headConPesawat {
+    margin-top: 30px;
+    font-size: 40px;
+}

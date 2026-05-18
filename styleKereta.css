@@ -1,0 +1,153 @@
+#putihKereta {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    width: 100%;
+
+    padding-bottom: 40px;
+    padding-top: 30px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-radius: 15px;
+    background-color: white;
+
+    top: 420px;
+    z-index: 999;
+}
+
+#isiKotakKereta {
+    text-align: center;
+    justify-content: center;
+}
+
+#kotakKereta {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#isiKotak1Kereta {
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+#isiKotak1Kereta h3{
+    font-size: 20px;
+}
+
+#isiKotak1Kereta p{
+    font-size: 15px;
+}
+
+.btnKereta {
+    border-radius: 10px;
+    background-color: #7CB1FF;
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.containerKereta2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+    width: 100%;
+    background-color: #7CB1FF;
+    border-radius: 10px;
+}
+
+#headConKereta {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+#sub-headConKereta {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.bgFotoKereta img {
+    width: 100%;
+
+    opacity: 40%;
+    position: fixed;
+    top: -100px;
+}
+
+#kotakKereta1 {
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+
+    background-color: white;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#kotakKereta2 {
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+
+    background-color: white;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#teksKiri {
+    margin-left: 40px;
+}
+
+#teksKanan {
+    margin-right: 40px;
+}
+
+#abu {
+    text-decoration: none;
+    color: #837e7e;
+}
+
+.keretaGerak img{
+    position: absolute;
+    max-width: 400px;
+    width: 100%;
+    top: -187px;
+    right: -49px;
+    animation: kereta 13s linear infinite;
+}
+
+@keyframes kereta {
+    0% {
+        transform: translateX(0) scaleX(1);
+    }
+    49.9% {
+        transform: translateX(-1100px) scaleX(1);
+    }
+    50% {
+        transform: translateX(-1100px) scaleX(-1);
+        
+    }
+    99.9% {
+        transform: translateX(0) scaleX(-1);
+    }
+    100% {
+        transform: translateX(0) scaleX(1);
+    }
+}
